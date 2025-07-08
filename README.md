@@ -109,3 +109,12 @@ sequenceDiagram
 
     Backend ->> Requester : api response
 ```
+
+
+## POC
+
+[https://sas-org-user-management.pages.dev/]()
+
+POC Implmentation for the aforementioned auth solution can be found above.  Using cloudfare, supertoken, pulumi, vue and typescripts.  
+
+Once login, one can create an organization, an object that represents collection of users, and add user to that organization with various authorizations such as `admin`, `write` and `read` roles based on cloudflare's free plan.
