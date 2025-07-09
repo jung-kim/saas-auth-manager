@@ -1,6 +1,6 @@
 # sas-auth-manager
 
-As a person who have been worked on SAS infrastructures and services almost all of my professional life, one of the common challenge for providing SAS service is authentication, authorizations, and user managements using JWT token for a user access.
+As a person who have been worked on SaaS infrastructures and services almost all of my professional life, one of the common challenge for providing SaaS service is authentication, authorizations, and user managements using JWT token for a user access.
 
 I have seen may different solutions but they all comonnly have below issues.
 
@@ -13,7 +13,7 @@ I have seen may different solutions but they all comonnly have below issues.
 4. cost
    popular solutions such as okta and auth0 often cost more than $3000 per month for enterprise with various limits and restricitons
 
-This project is my attempt at providing a generalized solution for SAS user managements, specifically focusing to address above issues.
+This project is my attempt at providing a generalized solution for SaaS user managements, specifically focusing to address above issues.
 
 ## Key design philosophies
 
@@ -113,7 +113,7 @@ sequenceDiagram
 
 ## POC
 
-[https://sas-org-user-management.pages.dev/]()
+[https://saas-auth-manager.pages.dev](https://saas-auth-manager.pages.dev)
 
 POC Implmentation for the aforementioned auth solution can be found above.  Using cloudfare, supertoken, pulumi, vue and typescripts.  
 
